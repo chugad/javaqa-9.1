@@ -23,4 +23,12 @@ public class PostVk {
     private String[] sortCommentInfo; //блок комментарием отсортирован как? сначала: интересные, старые, новые
     private CommentsInfo[] CommentsInfo; // блок с комментариями
 
+
+    private boolean friends_only; //запись только для друзей?
+    private String copyright; //копирайт
+    private String post_type; //тип поста
+    private String geo; //местоположение
+    private boolean marked_as_ads; // реклама?
+    private boolean s_favorite; // в закладках у текущего юзера
+    private boolean postponed_id; // отложенный пост?
 }
